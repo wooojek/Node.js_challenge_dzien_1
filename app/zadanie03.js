@@ -1,1 +1,1 @@
-//Twój kod
+console.log(process.argv.reduce((prev, cur, index) => index > 1 ?  Number(prev) + Number(cur) : null));
